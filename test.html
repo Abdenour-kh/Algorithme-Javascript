@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>test</title>
+
+    <script>
+
+
+     
+// let reponse = prompt("Est-ce un nombre premier ?", "<Essaye  ici >");
+
+    function nombrePremier (nb){
+        
+
+        if(nb<2){
+            return false;
+        }
+        for (let i = 2; i <= Math.sqrt(nb); i++)
+        
+        if (nb % i == 0) return false;
+     
+        return true;
+    }
+    nombrePremier ()
+
+console.log(nombrePremier(54))
+
+
+
+           </script>
+</head>
+<body>
+
+</body>
+</html>
